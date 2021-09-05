@@ -205,6 +205,7 @@
 	"c_cpp.debuggers.targetArchitecture.description": "デバッグ対象のアーキテクチャ。このパラメーターを設定しない場合は、自動的に検出されます。可能な値は、x86、arm、arm64、mips、x64、amd64、x86_64 です。",
 	"c_cpp.debuggers.cwd.description": "ターゲットの作業ディレクトリです",
 	"c_cpp.debuggers.setupCommands.description": "基礎となるデバッガーをセットアップするために実行する 1 つ以上の GDB/LLDB コマンド。例: \"setupCommands\": [ { \"text\": \"-enable-pretty-printing\", \"description\": \"Enable GDB pretty printing\", \"ignoreFailures\": true }]。",
+	"c_cpp.debuggers.postRemoteConnectCommands.description": "デバッグ サーバーへのリモート接続の後に実行される 1 つ以上のコマンド。",
 	"c_cpp.debuggers.customLaunchSetupCommands.description": "指定した場合、ターゲットを起動するために使われる既定のコマンドが、他のいくつかのコマンドに置き換えられます。たとえば、ターゲット プロセスにアタッチするためには、\"-target-attach\" と指定します。空のコマンド リストを指定すると、起動コマンドは何とも置き換えられません。これは、デバッガーにコマンド ライン オプションとして起動オプションが提供されている場合に便利です。例: \"customLaunchSetupCommands\": [ { \"text\": \"target-run\", \"description\": \"run target\", \"ignoreFailures\": false }]。",
 	"c_cpp.debuggers.launchCompleteCommand.description": "デバッガーが完全にセットアップされた後に、ターゲット プロセスを実行するために実行するコマンド。可能な値は、\"exec-run\"、\"exec-continue\"、\"None\" です。既定値は \"exec-run\" です。",
 	"c_cpp.debuggers.cppdbg.visualizerFile.description": "このプロセスをデバッグするときに使用する .natvis ファイルです。このオプションは GDB の再フォーマットと互換性がありません。この設定を使用する場合は、\"showDisplayString\" も参照してください。",

@@ -205,6 +205,7 @@
 	"c_cpp.debuggers.targetArchitecture.description": "디버기의 아키텍처입니다. 이 매개 변수를 설정하지 않는 경우 자동으로 검색됩니다. 허용되는 값은 x86, arm, arm64, mips, x64, amd64, x86_64입니다.",
 	"c_cpp.debuggers.cwd.description": "대상의 작업 디렉터리입니다.",
 	"c_cpp.debuggers.setupCommands.description": "기본 디버거를 설정하기 위해 실행할 하나 이상의 GDB/LLDB 명령입니다. 예: \"setupCommands\": [ { \"text\": \"-enable-pretty-printing\", \"description\": \"Enable GDB pretty printing\", \"ignoreFailures\": true }].",
+	"c_cpp.debuggers.postRemoteConnectCommands.description": "디버그 서버에 대한 원격 연결 후 실행되는 하나 이상의 명령입니다.",
 	"c_cpp.debuggers.customLaunchSetupCommands.description": "이 항목이 제공되는 경우 대상을 시작하는 데 사용되는 기본 명령은 다른 명령으로 바뀌게 됩니다. 예를 들어 대상 프로세스에 연결하려면 \"-target-attach\"를 사용할 수 있습니다. 빈 명령 목록은 시작 명령을 바꾸지 않으며, 이는 디버거의 시작 옵션이 명령줄 옵션으로 제공되는 경우 유용할 수 있습니다. 예: \"customLaunchSetupCommands\": [ { \"text\": \"target-run\", \"description\": \"run target\", \"ignoreFailures\": false }].",
 	"c_cpp.debuggers.launchCompleteCommand.description": "대상 프로세스가 실행되도록 디버거가 완전히 설정된 후 실행할 명령입니다. 허용되는 값은 \"exec-run\", \"exec-continue\", \"None\"입니다. 기본값은 \"exec-run\"입니다.",
 	"c_cpp.debuggers.cppdbg.visualizerFile.description": "이 프로세스를 디버그할 때 사용할 .natvis 파일입니다. 이 옵션은 GDB 자동 서식 지정과 호환되지 않습니다. 이 설정을 사용하는 경우 \"showDisplayString\"을 참조하세요.",
